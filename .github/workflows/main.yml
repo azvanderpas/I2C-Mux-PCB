@@ -18,7 +18,7 @@ jobs:
     - uses: INTI-CMNB/KiBot@v1
       with:
       # Required - kibot config file
-        config: PCBWay.kibot.yaml
+        config: configs/PCBWay.kibot.yaml
       # optional - prefix to output defined in config
         dir: output
       # optional - schematic file
