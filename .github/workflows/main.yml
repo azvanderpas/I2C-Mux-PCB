@@ -1,17 +1,10 @@
 name: FRC I2C Mux
 
-on:
-  push:
-    paths:
-    - '**.kicad_sch'
-    - '**.kicad_pcb'
-  pull_request:
-    paths:
-      - '**.kicad_sch'
-      - '**.kicad_pcb'
+on: [push, pull_request]
+
 
 jobs:
-  example:
+  kicad-export:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
