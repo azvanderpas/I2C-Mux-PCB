@@ -14,8 +14,8 @@ jobs:
   example:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: INTI-CMNB/KiBot@v1
+    - uses: actions/checkout@v1_k6
+    - uses: INTI-CMNB/KiBot@v1_k6
       with:
       # Required - kibot config file
         config: configs/PCBWay.kibot.yaml
