@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: INTI-CMNB/KiBot@main
+    - uses: INTI-CMNB/KiBot@master
       with:
       # Required - kibot config file
         config: configs/PCBWay.kibot.yaml
