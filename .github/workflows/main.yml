@@ -3,26 +3,26 @@ name: FRC I2C Mux
 on:
   push:
     paths:
-    - '**.sch'
+    - '**.kicad_sch'
     - '**.kicad_pcb'
   pull_request:
     paths:
-      - '**.sch'
+      - '**.kicad_sch'
       - '**.kicad_pcb'
 
 jobs:
   example:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: INTI-CMNB/KiBot@v1
+    - uses: actions/checkout@dev_k6
+    - uses: INTI-CMNB/KiBot@v1_k6
       with:
       # Required - kibot config file
-        config: config.kibot.yaml
+        config: configs/PCBWay.kibot.yaml
       # optional - prefix to output defined in config
         dir: output
       # optional - schematic file
-        schema: '*.sch'
+        schema: '*.kicad_sch'
       # optional - PCB design file
         board: '*.kicad_pcb'
     - name: upload results

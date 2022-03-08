@@ -119,7 +119,7 @@
   (net 41 "Net-(R20-Pad2)")
   (net 42 "Net-(D1-Pad2)")
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "footprints:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 04909f40-c220-4367-91ed-f0174171788b)
     (at 137.566 58.948)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
@@ -166,7 +166,7 @@
     )
   )
 
-  (footprint "SamacSys_Parts:LEDC1006X25N" (layer "F.Cu")
+  (footprint "footprints:LEDC1006X25N" (layer "F.Cu")
     (tedit 0) (tstamp 063ef32a-e380-47c9-bffe-e4e1261667e5)
     (at 143.764 89.154 90)
     (descr "SML-P11MTT86")
@@ -210,7 +210,7 @@
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "footprints:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 0e20525a-06fa-48b8-bf0f-432effb56b66)
     (at 156.337 88.011 -90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
@@ -261,7 +261,7 @@
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "footprints:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 446bc88d-4409-4041-9cdc-738db8f5c467)
     (at 117.348 80.518 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
@@ -312,7 +312,7 @@
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "footprints:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 4a9a38aa-8e76-48a9-8cfa-aba8179faae6)
     (at 117.221 73.533 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
@@ -363,7 +363,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "F.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "F.Cu")
     (tedit 5F6BB9E0) (tstamp 4e6be61f-eaa0-45db-867d-8103ce1c52cc)
     (at 141.1345 88.392 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -405,7 +405,7 @@
     )
   )
 
-  (footprint "MountingHole:MountingHole_2.5mm_Pad_Via" (layer "F.Cu")
+  (footprint "footprints:MountingHole_2.5mm_Pad_Via" (layer "F.Cu")
     (tedit 56DDBAEA) (tstamp 5a6477c3-1387-49c6-8146-523bdcf60ea4)
     (at 147.32 60.452)
     (descr "Mounting Hole 2.5mm")
@@ -448,7 +448,7 @@
       (net 2 "GND") (pinfunction "1") (pintype "input") (tstamp faa35c0b-b29c-4802-8596-5cfbc70aa00a))
   )
 
-  (footprint "Bitmaps:canman_soldermask" (layer "F.Cu")
+  (footprint "footprints:canman_soldermask" (layer "F.Cu")
     (tedit 0) (tstamp 6d96171e-7384-48a3-b7b6-f3f35d176d40)
     (at 156.464 93.98)
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -3702,7 +3702,7 @@
       ) (layer "F.Mask") (width 0) (fill solid) (tstamp f692af35-5e24-43a6-a272-512e207b9e14))
   )
 
-  (footprint "SamacSys_Parts:EXB2HV_1" (layer "F.Cu")
+  (footprint "footprints:EXB2HV_1" (layer "F.Cu")
     (tedit 0) (tstamp 70745349-c243-4dd5-8eab-d954a7bbca74)
     (at 145.288 76.327 90)
     (descr "EXB2HV_1")
@@ -3762,7 +3762,7 @@
       (net 31 "Net-(RN2-Pad16)") (pinfunction "R1.2") (pintype "passive") (tstamp 7f3472d8-b33a-40c5-a248-c96394fd69de))
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "footprints:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 712c5544-81f6-4647-8400-d84d7f0c3164)
     (at 132.994 58.948)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
@@ -3809,7 +3809,7 @@
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "footprints:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 7dd830a8-8986-4512-a21e-299187277003)
     (at 142.138 58.948)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
@@ -3856,7 +3856,7 @@
     )
   )
 
-  (footprint "Bitmaps:canman_copper" (layer "F.Cu")
+  (footprint "footprints:canman_copper" (layer "F.Cu")
     (tedit 62130B3E) (tstamp 8cc78138-26c2-4be3-a4bd-4ad124dd5c3d)
     (at 156.464 93.98)
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -7110,7 +7110,7 @@
       ) (layer "F.Cu") (width 0) (fill solid) (tstamp eccdf86f-23ac-4077-b13e-27dc356e9a70))
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "footprints:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 99078e7e-839f-4a00-aad1-c962d7acf42a)
     (at 156.3645 66.548 -90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
@@ -7161,7 +7161,7 @@
     )
   )
 
-  (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithStem" (layer "F.Cu")
+  (footprint "footprints:SW_SPST_SKQG_WithStem" (layer "F.Cu")
     (tedit 61D4AAD5) (tstamp 9c0cc009-be8f-429c-af90-9b67ce84be69)
     (at 121.92 93.98)
     (descr "ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, With stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAFE010.html")
@@ -7270,7 +7270,7 @@
     )
   )
 
-  (footprint "MountingHole:MountingHole_2.5mm_Pad_Via" (layer "F.Cu")
+  (footprint "footprints:MountingHole_2.5mm_Pad_Via" (layer "F.Cu")
     (tedit 56DDBAEA) (tstamp a4b8b983-1c54-4363-b3fe-da71cc28a31e)
     (at 143.82 94)
     (descr "Mounting Hole 2.5mm")
@@ -7313,7 +7313,7 @@
       (net 2 "GND") (pinfunction "1") (pintype "input") (tstamp f2a44eaf-666f-422c-bb4d-a717499c3d1a))
   )
 
-  (footprint "MountingHole:MountingHole_2.5mm_Pad_Via" (layer "F.Cu")
+  (footprint "footprints:MountingHole_2.5mm_Pad_Via" (layer "F.Cu")
     (tedit 56DDBAEA) (tstamp aa4ffeb6-6b0e-43b3-8cff-e9f8f1ea1146)
     (at 127 60.452)
     (descr "Mounting Hole 2.5mm")
@@ -7356,7 +7356,7 @@
       (net 2 "GND") (pinfunction "1") (pintype "input") (tstamp e2df2a45-3811-4210-89e0-9a66f3cb9430))
   )
 
-  (footprint "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" (layer "F.Cu")
+  (footprint "footprints:SOIC-24W_7.5x15.4mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp b7955cb4-df46-425a-a2d5-add804fe7dfa)
     (at 137.541 73.787)
     (descr "SOIC, 24 Pin (JEDEC MS-013AD, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_wide-rw/RW_24.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
@@ -7450,7 +7450,7 @@
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "footprints:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp c1b164b4-1279-4efc-8ef8-de84f2b6a437)
     (at 156.337 73.406 -90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
@@ -7501,7 +7501,7 @@
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "footprints:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp cdcb8434-4e26-4119-9f35-94c9aa42dc6e)
     (at 137.414 91.186 180)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
@@ -7552,7 +7552,7 @@
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "footprints:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp cf298a78-2e9f-49db-a510-1be1fbb83135)
     (at 117.348 87.376 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
@@ -7603,7 +7603,7 @@
     )
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "footprints:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp e43dec7f-9359-4836-9087-41ad979ac030)
     (at 117.2585 66.548 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
@@ -7654,7 +7654,7 @@
     )
   )
 
-  (footprint "SamacSys_Parts:EXB2HV_1" (layer "F.Cu")
+  (footprint "footprints:EXB2HV_1" (layer "F.Cu")
     (tedit 0) (tstamp e96eeaac-1e9a-458a-82a9-4bf56e1fcfa8)
     (at 129.032 75.438 -90)
     (descr "EXB2HV_1")
@@ -7714,7 +7714,7 @@
       (net 37 "Net-(RN1-Pad16)") (pinfunction "R1.2") (pintype "passive") (tstamp 8a2de683-0cbb-47f9-b48d-61ac1c60565d))
   )
 
-  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
+  (footprint "footprints:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp efba929c-5e06-4c62-b447-a76b6f17d6fe)
     (at 156.337 80.772 -90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
@@ -7765,7 +7765,7 @@
     )
   )
 
-  (footprint "MountingHole:MountingHole_2.5mm_Pad_Via" (layer "F.Cu")
+  (footprint "footprints:MountingHole_2.5mm_Pad_Via" (layer "F.Cu")
     (tedit 56DDBAEA) (tstamp febfb39f-2870-469f-98cd-cdbc578b9dbc)
     (at 130.5 94)
     (descr "Mounting Hole 2.5mm")
@@ -7808,7 +7808,7 @@
       (net 2 "GND") (pinfunction "1") (pintype "input") (tstamp f8e9fc00-8f60-4688-b1c9-6de1e4c0c204))
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 0e4a550e-abb6-4c23-9b8b-a05022cb38e5)
     (at 121.158 90.17)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -7850,7 +7850,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 1e9012ef-2b29-4575-b860-16f04f8b1bcb)
     (at 122.7195 84.582)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -7892,7 +7892,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 2feb2ebb-9bd0-4eff-842a-868745e9b958)
     (at 151.267 76.429 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -7934,7 +7934,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 332897e1-f50b-4d52-8aa7-3e1a599fda1d)
     (at 136.398 69.342 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -7976,7 +7976,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 40955d21-1e97-4663-a2fe-48f4f9d93445)
     (at 122.301 70.866)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8018,7 +8018,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 42492ffe-2a1f-4f7e-a589-74c4e015909f)
     (at 152.537 77.953 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8060,7 +8060,7 @@
     )
   )
 
-  (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "B.Cu")
     (tedit 5F68FEEF) (tstamp 465edd0c-9dbd-47a5-b953-e3a5b746dafc)
     (at 143.637 67.691)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
@@ -8102,7 +8102,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 4975c768-4c33-4eb9-82fc-0ccc8ba198ec)
     (at 141.605 65.786 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8144,7 +8144,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 57988ee5-3c2d-48cc-ad50-db63f859204f)
     (at 152.41 70.587 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8186,7 +8186,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 5fb9da81-cbcd-413f-aed6-a0151c120158)
     (at 137.033 67.691 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8228,7 +8228,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 7048aa69-78ab-49a1-84f9-3259af5aa48d)
     (at 151.2945 69.444 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8270,7 +8270,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 7bd5c7fc-06d4-46bf-bd10-58950f9365af)
     (at 140.716 69.596 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8312,7 +8312,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 844e3ba0-d596-42cd-8a03-a3d373e25fbd)
     (at 122.3385 63.5)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8354,7 +8354,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 87ef9e06-f77a-40ad-821a-4852586def24)
     (at 120.9415 69.596)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8396,7 +8396,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp 92b90d16-2c0d-4d75-9dc0-ee4497e2003f)
     (at 152.41 85.065 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8438,7 +8438,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp a533ba79-7f6b-40a9-aa41-fc8bce60aa08)
     (at 140.614 87.259 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8480,7 +8480,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp a6506404-fdc7-4490-bc6e-94643a9195be)
     (at 121.031 76.581)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8522,7 +8522,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp a66c6b01-68db-444b-90a9-c61d7dd85c89)
     (at 134.264 86.116 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8564,7 +8564,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp a98072e6-f8eb-4691-bd84-70b5447f4440)
     (at 151.394 90.907 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8606,7 +8606,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp b781f661-d10f-474b-ac9d-4615bf2e2dda)
     (at 152.5645 63.602 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8648,7 +8648,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp cf694585-a5a5-42d7-8fa8-560fcbe42e6e)
     (at 132.461 65.786 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8690,7 +8690,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp dedf47da-d8a4-4768-b3c8-11922f6e4464)
     (at 122.682 77.724)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8732,7 +8732,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp e9f3ae66-e9b8-4033-98fd-d5dd514455c4)
     (at 150.886 83.541 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8774,7 +8774,7 @@
     )
   )
 
-  (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
+  (footprint "footprints:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (layer "B.Cu")
     (tedit 5F6BB9E0) (tstamp f3654bfb-9e42-445f-9984-1653b853afc7)
     (at 121.158 83.439)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -8872,7 +8872,7 @@
     (pts (xy 130.5 94) (xy 113.5 93.71))
     (height 13.65)
     (orientation 0)
-    (gr_text "17.0000 mm" (at 122 105.85) (layer "Dwgs.User") (tstamp a63c40ac-2029-4268-bc91-5b9db4dd799a)
+    (gr_text "17.0000 mm" (at 122 105.85) (layer "Dwgs.User") (tstamp 1fd9790a-5e5b-4f5e-8357-4f31651dbddd)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -8882,7 +8882,7 @@
     (pts (xy 126.99 60.452) (xy 147.32 60.49))
     (height -12.452)
     (orientation 0)
-    (gr_text "20.3300 mm" (at 137.155 46.2) (layer "Dwgs.User") (tstamp bec16055-a290-408e-a018-3dada3d80d98)
+    (gr_text "20.3300 mm" (at 137.155 46.2) (layer "Dwgs.User") (tstamp 6d65451e-4e3a-4e51-a79f-52c2d892015e)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -8892,7 +8892,7 @@
     (pts (xy 130.5 94) (xy 130.34 98.5))
     (height -27.89)
     (orientation 1)
-    (gr_text "4.5000 mm" (at 100.81 96.25 90) (layer "Dwgs.User") (tstamp 3b4a749e-5f50-4fa6-b718-33247ea187a1)
+    (gr_text "4.5000 mm" (at 100.81 96.25 90) (layer "Dwgs.User") (tstamp b802014e-b029-49a6-a168-886134919eba)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -8902,7 +8902,7 @@
     (pts (xy 127.23 60.17) (xy 130.52 94))
     (height -19.33)
     (orientation 1)
-    (gr_text "33.8300 mm" (at 106.1 77.085 90) (layer "Dwgs.User") (tstamp aeb3d767-7230-41a0-8ac4-d029381515ec)
+    (gr_text "33.8300 mm" (at 106.1 77.085 90) (layer "Dwgs.User") (tstamp cdb1a83a-60f1-416b-9a0f-aa9333bb57b7)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -8912,7 +8912,7 @@
     (pts (xy 126.99 60.452) (xy 113.49 60.34))
     (height -14.392)
     (orientation 0)
-    (gr_text "13.5000 mm" (at 120.24 44.26) (layer "Dwgs.User") (tstamp d9ca2050-ff12-4117-9335-7fe89430ad2b)
+    (gr_text "13.5000 mm" (at 120.24 44.26) (layer "Dwgs.User") (tstamp d6687e73-9590-4b99-95b3-f5d96178c2a0)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (format (units 3) (units_format 1) (precision 4))
@@ -8922,7 +8922,7 @@
     (pts (xy 130.5 94) (xy 143.82 93.98))
     (height 10.31)
     (orientation 0)
-    (gr_text "13.3200 mm" (at 138.79 106.52) (layer "Dwgs.User") (tstamp 7869f947-883d-43de-ac85-51a8b8bdfb0f)
+    (gr_text "13.3200 mm" (at 138.79 106.52) (layer "Dwgs.User") (tstamp e5a6a0c6-b654-43a9-9bdb-35d265394583)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (format (units 3) (units_format 1) (precision 4))
