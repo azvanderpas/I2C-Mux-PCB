@@ -2580,7 +2580,7 @@
     (uuid 35ee9526-dfeb-43ab-a292-2f0c25901734)
     (property "Reference" "RN1" (id 0) (at 134.62 39.37 90))
     (property "Value" "R_Pack08" (id 1) (at 134.62 41.91 90))
-    (property "Footprint" "SamacSys_Parts:EXB2HV_1" (id 2) (at 134.62 67.945 90)
+    (property "Footprint" "footprints:EXB2HV_1" (id 2) (at 134.62 67.945 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 134.62 55.88 0)
@@ -2641,7 +2641,7 @@
     (uuid 4012fd8a-8fea-421b-a73e-f3dc43ce343b)
     (property "Reference" "D1" (id 0) (at 136.8425 115.57 0))
     (property "Value" "LED" (id 1) (at 136.8425 118.11 0))
-    (property "Footprint" "SamacSys_Parts:LEDC1006X25N" (id 2) (at 138.43 121.92 0)
+    (property "Footprint" "footprints:LEDC1006X25N" (id 2) (at 138.43 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 138.43 121.92 0)
@@ -3333,7 +3333,7 @@
     (uuid d0962256-c7ae-438a-a071-11ced85dd3a6)
     (property "Reference" "RN2" (id 0) (at 134.62 90.17 90))
     (property "Value" "R_Pack08" (id 1) (at 134.62 87.63 90))
-    (property "Footprint" "SamacSys_Parts:EXB2HV_1" (id 2) (at 134.62 88.265 90)
+    (property "Footprint" "footprints:EXB2HV_1" (id 2) (at 134.62 88.265 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 134.62 76.2 0)
@@ -3609,7 +3609,7 @@
       (reference "C1") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/4012fd8a-8fea-421b-a73e-f3dc43ce343b"
-      (reference "D1") (unit 1) (value "LED") (footprint "SamacSys_Parts:LEDC1006X25N")
+      (reference "D1") (unit 1) (value "LED") (footprint "footprints:LEDC1006X25N")
     )
     (path "/2b2281f2-5588-448e-a177-2283f74f98c6"
       (reference "J1") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
@@ -3732,10 +3732,10 @@
       (reference "REF4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_2.5mm_Pad_Via")
     )
     (path "/35ee9526-dfeb-43ab-a292-2f0c25901734"
-      (reference "RN1") (unit 1) (value "R_Pack08") (footprint "SamacSys_Parts:EXB2HV_1")
+      (reference "RN1") (unit 1) (value "R_Pack08") (footprint "footprints:EXB2HV_1")
     )
     (path "/d0962256-c7ae-438a-a071-11ced85dd3a6"
-      (reference "RN2") (unit 1) (value "R_Pack08") (footprint "SamacSys_Parts:EXB2HV_1")
+      (reference "RN2") (unit 1) (value "R_Pack08") (footprint "footprints:EXB2HV_1")
     )
     (path "/c9b0f093-79f7-44a9-9a01-140d009dab54"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_SKQG_WithStem")
