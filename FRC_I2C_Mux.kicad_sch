@@ -2641,7 +2641,7 @@
     (uuid 4012fd8a-8fea-421b-a73e-f3dc43ce343b)
     (property "Reference" "D1" (id 0) (at 136.8425 115.57 0))
     (property "Value" "LED" (id 1) (at 136.8425 118.11 0))
-    (property "Footprint" "footprints:LEDC1006X25N" (id 2) (at 138.43 121.92 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 138.43 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 138.43 121.92 0)
@@ -3609,7 +3609,7 @@
       (reference "C1") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/4012fd8a-8fea-421b-a73e-f3dc43ce343b"
-      (reference "D1") (unit 1) (value "LED") (footprint "footprints:LEDC1006X25N")
+      (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/2b2281f2-5588-448e-a177-2283f74f98c6"
       (reference "J1") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
