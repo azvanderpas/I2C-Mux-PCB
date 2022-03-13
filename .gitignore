@@ -27,3 +27,5 @@ fp-info-cache
 
 outputs/
 *backups/
+
+*.kicad_prl
