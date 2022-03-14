@@ -55,6 +55,13 @@ outputs:
       pth_id: ''
       npth_id: '-NPTH'
       output: "%f%i.drl"
+  - name: BoM
+    comment: Bill of Materials
+    type: bom
+    dir: PCBWay
+    options:
+      csv:
+        hide_stats_info: true
 
   - name: PCBWay
     comment: ZIP file for PCBWay
