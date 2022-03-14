@@ -62,6 +62,7 @@ outputs:
     options:
       csv:
         hide_stats_info: true
+        hide_pcb_info: true
 
   - name: PCBWay
     comment: ZIP file for PCBWay
